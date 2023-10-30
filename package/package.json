@@ -1,0 +1,37 @@
+{
+  "name": "serverless-offline-aws-ssm",
+  "version": "1.0.0",
+  "description": "Serverless Offline SSM Provider",
+  "main": "index.js",
+  "files": [
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/foo4u/serverless-offline-aws-ssm.git"
+  },
+  "keywords": [
+    "serverless",
+    "offline",
+    "ssm"
+  ],
+  "author": "Scott Rossillo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/foo4u/serverless-offline-aws-ssm/issues"
+  },
+  "homepage": "https://github.com/foo4u/serverless-offline-aws-ssm#readme",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-fp": "^2.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-security": "^1.4.0"
+  },
+  "dependencies": {
+    "js-yaml": "^3.12.0"
+  }
+}
