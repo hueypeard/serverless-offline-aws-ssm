@@ -52,7 +52,8 @@ class ServerlessOfflineSSMProvider {
             return Promise.resolve({
                 Parameter: {
                     Value,
-                    TYPE: "String"
+                    TYPE: "String",
+                    Type: "String" // the 'Type' field seems to be whats accessed, not TYPE
                 }
             });
         };
